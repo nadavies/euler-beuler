@@ -8,8 +8,7 @@ public class Problem3 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		PrimeSieve sieve = new PrimeSieve();
-		System.out.println("Largest factor is " + sieve.largestFactor(600851475143L));
+		System.out.println("Largest factor is " + PrimeSieve.largestFactor(600851475143L));
 	}
 
 }
